@@ -1,6 +1,6 @@
-# Paytm Wallet Application
+# Upi Wallet Application
 
-A full-stack Paytm wallet application built with React, Express, and MongoDB. This project includes user authentication, a dynamic dashboard, and secure money transfer functionalities.
+A full-stack Upi wallet application built with React, Express, and MongoDB. This project includes user authentication, a dynamic dashboard, and secure money transfer functionalities.
 
 ## Features
 
