@@ -19,3 +19,7 @@ A full-stack Paytm wallet application built with React, Express, and MongoDB. Th
 - **Routing:** React Router DOM
 
 ## Getting Started
+- Clone the repository
+- install all the required dependencies
+- run the the backend file using the command node index.js
+- then run the frontend with the command npm run dev
