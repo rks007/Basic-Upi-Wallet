@@ -43,7 +43,7 @@ export const SendMoney = () => {
                     />
                     </div>
                     <button onClick={() => {
-                        axios.post("http://localhost:3000/api/v1/account/transfer", {
+                        axios.post("https://basic-upi-wallet.onrender.com/api/v1/account/transfer", {
                             to: id,
                             amount: amount
                         },{
