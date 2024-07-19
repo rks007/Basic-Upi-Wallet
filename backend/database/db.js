@@ -1,6 +1,11 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb+srv://rishabhkumarsingh94:23UzpdOdVjxaJFKP@cluster0.fc7lnvw.mongodb.net/upi')
+// mongoose.connect('mongodb+srv://rishabhkumarsingh94:23UzpdOdVjxaJFKP@cluster0.fc7lnvw.mongodb.net/upi')
+
+mongoose.connect('mongodb+srv://rishabhkumarsingh94:23UzpdOdVjxaJFKP@cluster0.fc7lnvw.mongodb.net/upi', { useNewUrlParser: true, useUnifiedTopology: true })
+    .then(() => console.log('Successfully connected to MongoDB'))
+    .catch(err => console.error('Connection error', err));
+
 
 const UserSchema = new mongoose.Schema({
     username: String,
